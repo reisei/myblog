@@ -6,4 +6,17 @@ draft: true
 
 Hi!
 
-My name is Aleksandr Chapkin, I'm System Administrator, specilized in GNU/Linux. That means I have a lot of experience with this OS: from basic office internet servers to ARM-builds for custom devices. 
+My name is Aleksandr Chapkin, I'm System Administrator, specializing in GNU/Linux, I have rather different kind of experience with this OS: from basic office internet servers support to ARM builds for custom devices. 
+
+Here is the list of technologies I familiar with:
+
+OS:
+- Ubuntu
+- Debin
+- CentOS
+- Gentoo
+
+CI/CD Tools:
+- Gitlab
+- Jenkins
+- 

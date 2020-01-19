@@ -1,5 +1,5 @@
-baseurl = "https://ach.ru.net"
-title = "Aleksandr Chapkin"
+baseurl = "http://reisei.ru"
+#title = "Aleksandr Chapkin"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -13,6 +13,10 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "reisei"
 
+relativeURLs = true
+
+googleAnalytics = "UA-37400922-4"
+
 [params]
     author = "Aleksandr Chapkin"
     info = "System Administrator, Devops enthusiast"
@@ -20,8 +24,8 @@ disqusShortname = "reisei"
     keywords = "blog,personal,linux,devops"
     avatarurl = "/images/avatar.png"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+#    favicon_32 = "/img/favicon-32x32.png"
+#    favicon_16 = "/img/favicon-16x16.png"
 
     footercontent = ""
 
@@ -31,7 +35,7 @@ disqusShortname = "reisei"
     rtl = false
 
     math = true
-    custom_css = ["css/custom.css"]
+#    custom_css = ["css/custom.css"]
 
 # Social links
 [[params.social]]
@@ -39,11 +43,11 @@ disqusShortname = "reisei"
     icon = "fab fa-github fa-2x"
     weight = 1
     url = "https://github.com/reisei/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 2
-    url = "https://gitlab.com/reisei/"
+#[[params.social]]
+#    name = "Gitlab"
+#    icon = "fab fa-gitlab fa-2x"
+#    weight = 2
+#    url = "https://gitlab.com/reisei/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
@@ -51,11 +55,11 @@ disqusShortname = "reisei"
     url = "https://twitter.com/reisei/"
 
 # Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "/posts/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about/"

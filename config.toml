@@ -1,4 +1,4 @@
-baseurl = "http://reisei.ru"
+baseurl = "https://reisei.ru"
 #title = "Aleksandr Chapkin"
 theme = "hugo-coder"
 languagecode = "en"
@@ -24,8 +24,8 @@ googleAnalytics = "UA-37400922-4"
     keywords = "blog,personal,linux,devops"
     avatarurl = "/images/avatar.png"
 
-#    favicon_32 = "/img/favicon-32x32.png"
-#    favicon_16 = "/img/favicon-16x16.png"
+    favicon_32 = "/images/favicon-32x32.png"
+    favicon_16 = "/images/favicon-16x16.png"
 
     footercontent = ""
 
@@ -53,6 +53,16 @@ googleAnalytics = "UA-37400922-4"
     icon = "fab fa-twitter fa-2x"
     weight = 3
     url = "https://twitter.com/reisei/"
+#[[params.social]]
+#    name = "LinkedIn"
+#    icon = "fab fa-linkedin fa-2x"
+#    weight = 4
+#    url = "https://www.linkedin.com/in/achapkin/"
+#[[params.social]]
+#    name = "Tumblr"
+#    icon = "fab fa-tumblr fa-2x"
+#    weight = 5
+#    url = "https://coffee-hedgehog.ru"
 
 # Menu links
 #[[menu.main]]

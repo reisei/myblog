@@ -1,5 +1,4 @@
 baseurl = "https://reisei.ru"
-#title = "Aleksandr Chapkin"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -22,15 +21,12 @@ googleAnalytics = "UA-37400922-4"
 
 [params]
     author = "Aleksandr Chapkin"
-    info = "System Administrator, Devops enthusiast"
-    description = ""
+    info = "Linux System Administrator, DevOps enthusiast"
     keywords = "blog,personal,linux,devops"
     avatarurl = "/images/avatar.png"
 
     favicon_32 = "/images/favicon-32x32.png"
     favicon_16 = "/images/favicon-16x16.png"
-
-    footercontent = "Blog to organize my social links and for some near-technical posts"
 
     hidecredits = true
     hidecopyright = true
@@ -60,13 +56,8 @@ googleAnalytics = "UA-37400922-4"
     icon = "fab fa-tumblr fa-2x"
     weight = 4
     url = "https://coffee-hedgehog.ru"
-
-# Menu links
-#[[menu.main]]
-#    name = "Blog"
-#    weight = 1
-#    url  = "/posts/"
-#[[menu.main]]
-#    name = "About"
-#    weight = 2
-#    url = "/about/"
+[[params.social]]
+    name = "Lichess"
+    icon = "fas fa-chess-knight fa-2x"
+    weight = 4
+    url = "https://lichess.org/@/reisei"

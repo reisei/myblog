@@ -2,13 +2,14 @@ baseurl = "https://reisei.ru"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+title = "Aleksandr Chapkin"
 
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+#pygmentsstyle = "bw"
+#pygmentscodefences = true
+#pygmentscodefencesguesssyntax = true
 
 disqusShortname = "reisei"
 
@@ -32,32 +33,34 @@ googleAnalytics = "UA-37400922-4"
     hidecopyright = true
 
     rtl = false
-
     math = true
+
+    #custom_css = ["css/nonacademicons.css", "css/nonacademicons.min.css"]
+    custom_css = ["css/nonacademicons.min.css"]
 
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/reisei/"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    icon = "fa fa-twitter fa-2x"
     weight = 2
     url = "https://twitter.com/reisei/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
+    icon = "fa fa-linkedin-square fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/achapkin/"
 [[params.social]]
     name = "Tumblr"
-    icon = "fab fa-tumblr fa-2x"
+    icon = "fa fa-tumblr fa-2x"
     weight = 4
     url = "https://coffee-hedgehog.ru"
 [[params.social]]
     name = "Lichess"
-    icon = "fas fa-chess-knight fa-2x"
+    icon = "nai nai-lichess-square nai-2x"
     weight = 4
     url = "https://lichess.org/@/reisei"

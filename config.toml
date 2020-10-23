@@ -51,7 +51,7 @@ googleAnalytics = "UA-37400922-4"
     url = "https://twitter.com/reisei/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-linkedin-square fa-2x"
+    icon = "fa fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/achapkin/"
 [[params.social]]
@@ -61,6 +61,6 @@ googleAnalytics = "UA-37400922-4"
     url = "https://coffee-hedgehog.ru"
 [[params.social]]
     name = "Lichess"
-    icon = "nai nai-lichess-square nai-2x"
+    icon = "nai nai-lichess nai-2x"
     weight = 5
     url = "https://lichess.org/@/reisei"

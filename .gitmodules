@@ -1,3 +1,6 @@
 [submodule "themes/hugo-coder"]
 	path = themes/hugo-coder
 	url = git@github.com:reisei/hugo-coder.git
+[submodule "public"]
+	path = public
+	url = git@github.com:reisei/reisei.github.io.git

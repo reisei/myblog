@@ -7,22 +7,19 @@ title = "Aleksandr Chapkin"
 paginate = 20
 canonifyurls = true
 
-#pygmentsstyle = "bw"
-#pygmentscodefences = true
-#pygmentscodefencesguesssyntax = true
+[markup.highlight]
+    style = "github-dark"
 
 disqusShortname = "reisei"
 
 relativeURLs = true
-
-googleAnalytics = "UA-37400922-4"
 
 [blackfriday]
   hrefTargetBlank = true
 
 [params]
     author = "Aleksandr Chapkin"
-    info = "Linux System Administrator, DevOps enthusiast"
+    info = ["Linux System Administrator", "DevOps enthusiast"]
     keywords = "blog,personal,linux,devops"
     avatarurl = "/images/avatar.png"
 
@@ -35,8 +32,15 @@ googleAnalytics = "UA-37400922-4"
     rtl = false
     math = true
 
-    #custom_css = ["css/nonacademicons.css", "css/nonacademicons.min.css"]
-    custom_css = ["css/nonacademicons.min.css"]
+    #customCSS = ["css/nonacademicons.css", "css/nonacademicons.min.css"]
+    customCSS = ["css/my.css", "css/nonacademicons.css"]
+    hideColorSchemeToggle = true
+    colorScheme = "light"
+
+
+
+[params.googleTagManager]
+    id = "G-G5WH27X01N"
 
 # Social links
 [[params.social]]
